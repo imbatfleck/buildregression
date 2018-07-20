@@ -605,6 +605,6 @@ public class BuildAutomationApplication{
 	{
 		BuildOperation buildOperation=new BuildOperation();
 		buildOperation.getToken(URLFactory.LOGIN_URL, authStack.peek());
-		buildOperation.doCreateBatch(URLFactory.CREATE_BATCH_URL,"DagBase", "736BuildShelv", "736BuildShelv", "itemlist5.txt");
+		buildOperation.doCreateBatch(URLFactory.CREATE_BATCH_URL,"DagBase", "ChaseManHattan", "ChaseManHattan", "itemlist5.txt");
 	}
 }

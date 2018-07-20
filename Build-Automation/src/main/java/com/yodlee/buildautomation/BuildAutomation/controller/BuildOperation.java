@@ -126,7 +126,7 @@ public class BuildOperation {
 		CBProp cbProp=CBProp.setBatchValues(batchName,batchDesc,batchNickName, createItemList(fileName));
 		restOperation.setHeaders(httpHeaders, tokeValue);
 		cbResponse=restOperation.getPostResponseExchange(url, httpHeaders, cbProp, cbResponse, restTemplate);
-		
+		System.out.println("++++++++++++cbresponse="+cbResponse.getStatusMsg());
 	}
 	
 	
